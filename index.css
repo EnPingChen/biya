@@ -1,0 +1,110 @@
+body{
+    font-family: Comic Sans MS,arial,helvetica,sans-serif;
+}
+.center{
+	text-align: center;
+}
+.superbig{
+	font-size: 20px;
+}
+h1{
+	display: inline;
+	padding: 30px;
+}
+img{
+    width: 70%;
+    height: auto;
+    padding: 50px;
+}
+.bg-white{
+	background-color: white;
+    color : green;
+}
+.bg{
+    background-image: url("picture/bg1.jpg");
+    height:100vh;
+    background-attachment: fixed;
+}
+.grey_background{
+    background-color: grey;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    text-align: center;
+    width:50%;
+    margin:0 auto;
+    color: white;
+    font-size: 22px;
+    height:auto;
+}
+.none{
+	display:none;
+	position: relative;
+	width:231px;
+	float: left;
+	left: 15%;
+}
+#bi{
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+	animation: myfirst 5s linear 2s infinite alternate;
+}
+#ya{
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+	animation: mysecond 5s linear 2s infinite alternate;
+}
+#chi{
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+	animation: mythird 5s linear 2s infinite alternate;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {color:red;transform:rotate(0) ;-webkit-transform: rotate(0deg);}
+    25%  {color:yellow ;transform:rotate(20);-webkit-transform: rotate(20deg);}
+    50%  {color:blue ;transform:rotate(-20);-webkit-transform: rotate(-20deg);}
+    75%  {color:green;transform:rotate(360);-webkit-transform: rotate(50deg);}
+    100% {color:red;transform:rotate(0);-webkit-transform: rotate(-50deg);}
+}
+
+/* Standard syntax */
+@keyframes myfirst transform{
+    0%   {color:red;}
+    25%  {color:yellow ;transform:rotate(20);}
+    50%  {color:blue ;transform:rotate(-20)}
+    75%  {color:green;transform:rotate(360);}
+    100% {color:red;transform:rotate(0);}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mysecond {
+    0%   {color:red;transform:rotate(0) ;-webkit-transform: rotate(0deg);}
+    25%  {color:yellow ;transform:rotate(20);-webkit-transform: rotate(20deg);}
+    50%  {color:blue ;transform:rotate(-20);-webkit-transform: rotate(-20deg);}
+    75%  {color:green;transform:rotate(360);-webkit-transform: rotate(50deg);}
+    100% {color:red;transform:rotate(0);-webkit-transform: rotate(-50deg);}
+}
+
+/* Standard syntax */
+@keyframes mysecond transform{
+    0%   {color:red;}
+    25%  {color:yellow ;transform:rotate(20);}
+    50%  {color:blue ;transform:rotate(-20)}
+    75%  {color:green;transform:rotate(360);}
+    100% {color:red;transform:rotate(0);}
+}
+/*Chrome, Safari, Opera */
+@-webkit-keyframes mythird {
+    0%   {color:red;transform:rotate(0) ;-webkit-transform: rotate(0deg);}
+    25%  {color:yellow ;transform:rotate(20);-webkit-transform: rotate(20deg);}
+    50%  {color:blue ;transform:rotate(-20);-webkit-transform: rotate(-20deg);}
+    75%  {color:green;transform:rotate(360);-webkit-transform: rotate(50deg);}
+    100% {color:red;transform:rotate(0);-webkit-transform: rotate(-50deg);}
+}
+
+ /*Standard syntax */
+@keyframes mythird transform{
+    0%   {color:red;}
+    25%  {color:yellow ;transform:rotate(20);}
+    50%  {color:blue ;transform:rotate(-20)}
+    75%  {color:green;transform:rotate(360);}
+    100% {color:red;transform:rotate(0);}
+}
+</style>
+
